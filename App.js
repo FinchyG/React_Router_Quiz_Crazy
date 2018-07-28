@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 import QuizSelect from './mainComponents/QuizSelect';
 import GeneralKnowledge from './mainComponents/GeneralKnowledge';
+import Geography from './mainComponents/Geography';
 
 class App extends Component {
   render() {
@@ -12,6 +13,7 @@ class App extends Component {
           <Switch>
             <Route path="/" component={QuizSelect} exact />
             <Route path="/generalKnowledge" component={GeneralKnowledge} />
+            <Route path="/geography" component={Geography} />
           </Switch>
         </div>
       </BrowserRouter>

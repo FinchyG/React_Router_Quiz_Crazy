@@ -5,7 +5,7 @@ import ImagePaths from '../subComponents/ImagePaths';
 import TitleHeader from '../subComponents/TitleHeader';
 import QuestionComponent from '../subComponents/QuestionComponent';
 
-export default class GeneralKnowledge extends React.Component {
+class GeneralKnowledge extends React.Component {
 
     render() {
         
@@ -71,4 +71,7 @@ export default class GeneralKnowledge extends React.Component {
         );
 
     }
+
 }
+
+export default GeneralKnowledge;

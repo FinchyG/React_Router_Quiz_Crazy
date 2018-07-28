@@ -15,7 +15,7 @@ const QuizSelect = () => {
             <div id="quizSelectors">
                 <NavLink to="/generalKnowledge" className="quizLink">General Knowledge</NavLink>
                 <NavLink to="/history" className="quizLink">History</NavLink>
-                <NavLink to="/entertainment" className="quizLink">Entertainment</NavLink>
+                <NavLink to="/geography" className="quizLink">Geography</NavLink>
             </div>
         </div>
     );
